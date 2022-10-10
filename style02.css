@@ -1,9 +1,8 @@
 .item{
   font-size: 18px;
-  display: inline-block;
   background-color: #a0e0c0;
 }
 
 .list{
-  display: inline-block;
+  display: flex;
 }
