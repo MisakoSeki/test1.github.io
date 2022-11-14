@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="constants.js"></script>
+  <script src="SimpleCam.js" defer></script>
+  <script src="process.js" defer></script>
+</head>
+<body>
+  <div>
+    <video id="video" />
+  </div>
+  <form id="control"></form>
+  <div><canvas id="display_canvas"></canvas></div>
+  <button id="start">描画開始</button>
+  <select id="filter">
+    <option value="through">through</option>
+    <option value="softfocus" selected>softfocus</option>
+    <option value="edge">edge</option>
+    <option value="laplacian">laplacian</option>
+  </select>
+</body>
+</html>
